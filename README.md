@@ -87,7 +87,7 @@
         const data = {};
         formData.forEach((value, key) => data[key] = value);
 
-        const response = await fetch(['https://YOUR_N8N_WEBHOOK_URL'](https://ahmedalg.app.n8n.cloud/webhook/9f996da2-bc0f-42df-a84f-46630dc123b8), {
+        const response = await fetch(https://ahmedalg.app.n8n.cloud/webhook/9f996da2-bc0f-42df-a84f-46630dc123b8), {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(data)
